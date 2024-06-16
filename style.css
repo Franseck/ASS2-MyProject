@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(91, 126, 134, 0.9486169467787114) 5%,
+    rgba(43, 94, 110, 1) 32%,
+    rgba(10, 66, 66, 1) 87%
+  );
+  text-align: center;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  position: sticky;
+  top: 0;
+}
+
+.name {
+  font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 2rem;
+  }
+
+.nav ul li {
+  display: inline-block;
+  padding: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: 1px inset rgb(0, 140, 255);
+  box-shadow: 5px 5px 5px;
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  list-style: none;
+  }
+
+li:hover {
+  background-color: rgb(142, 73, 48);
+}
+
+.hello {
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 50px;
+}
+
+.hello p {
+  text-align: center;
+  margin-top: 100px;
+  padding: 3rem;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.photos {
+  border: 2px inset rgb(23, 50, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+img {
+  width: 25%;
+  border-radius: 10px;
+}
+h2 {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 3rem;
+}
+
+.lastpart h3 {
+  padding-bottom: 1rem;
+}
+h3 {
+  text-decoration: underline;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.icons a {
+  padding: 2rem;
+  color: bisque;
+}
+.icons {
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  color: rgb(124, 23, 23);
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid rgb(181, 108, 13);
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  width: 50%;
+}
+
+.btn {
+  width: 50%;
+  background: rgb(7, 43, 70);
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+.top {
+  float: right;
+  color: bisque;
+  margin: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px 10px;
+}
